@@ -1,56 +1,50 @@
-# Jogo da Memória
+<h1 align="center">Jogo da Memória</h1>
 
-Vamos criar um jogo da memória? Que tal testar suas habilidades com uma combinação de React JS, Typescript, Vite e Tailwind CSS? Juntos, vamos desenvolver um jogo da memória inspirado em um dos animes mais icônicos de todos os tempos: **Dragon Ball Z**.
+<h2 align="center">
+Explore o mundo de Dragon Ball Z com nosso jogo da memória! Encontre os pares de cartas dos personagens favoritos enquanto o tempo corre contra você. Vença o desafio e se divirta com uma página de erro 404 única. Está pronto para o desafio?
+</h2>
 
-## 🤓 Antes de começar
+<h3 align="center"> Este projeto foi desenvolvido com base em uma ideia encontrada em 
+     <a href="https://codante.io/mini-projetos/jogo-da-memoria-com-react">codante</a>. 
+</h3>
 
-Este mini projeto já contém todas as informações dos cards que serão utilizados no jogo, dentro do diretório `/src/utils/data.ts`. As imagens necessárias encontram-se no diretório `/public/images`. Sinta-se à vontade para utilizá-las ou substituí-las por outras imagens de sua preferência.
+<h3 align="center">
+     <a href="https://jogo-da-memoria-phi-seven.vercel.app/">Testar Projeto</a>
+</h3>
 
-## 🔨 Requisitos
+<h2>🎨 Demonstração</h2>
 
-- Utilize React JS + TypeScript + Vite + Tailwind CSS.
-- Crie uma tela inicial de login para armazenar o nome do jogador.
-- Crie uma tela de jogo exibindo um header e os cards.
-- O header deve exibir o nome do jogador e um timer contando os segundos.
-- Os cartões começam virados para baixo e, ao clicar neles, são revelados.
-- Se a próxima carta revelada combinar com o par, elas permanecem visíveis; caso contrário, a carta é virada novamente.
+<p align="center">
+    <img 
+     src="./public/images/login.png"
+     alt="Image da tela de login" width="300px">
+    <img 
+     src="./public/images/game.png" 
+      alt="Image da tela de game" width="300px">
+     <img 
+     src="./public/images/alert.png" 
+      alt="Image da tela de game com o alerta de final de jogo" width="300px">
+</p>
 
-  > 👀 **Dicas:**
-  > - Busque reutilizar componentes.
-  > - Fique à vontade para utilizar qualquer gerenciador de estado.
-  > - Em dúvida sobre como criar animação das cartas? Dá uma olhadinha no [React Card Flip](https://www.npmjs.com/package/react-card-flip).
+<h2>🛠 Conhecimentos Utilizados</h2>
 
-## 🔨 Desafio extra para quem quer ir além
+- React JS
+- React Router Dom
+- TypeScript
+- Tailwind CSS
+- React Card Flip
 
-- Quando todas as cartas forem selecionadas, o timer é interrompido e uma mensagem de resultado é exibida, juntamente com a opção de recomeçar o jogo por meio de um botão.
-- Crie uma página de erro 404 criativa que deve ser renderizada ao tentar acessar uma rota inexistente.
+<h2>📫 Feedback</h2>
 
-## 💻 Setup do projeto
+<h3 align="center">
+     Se você tiver algum feedback, posso ser encontrado em:
+</h3>
 
-O projeto com a estrutura inicial já estará disponível para você na branch principal do repositório. Sua responsabilidade será apenas implementar a lógica de acordo com o passo a passo acima.
-
-## 🔍 Dicas
-
-- Estude sobre componentização, estados e passagem de props.
-- Estude sobre criação de rotas no React.
-- Estude sobre tipagem de dados com TypeScript.
-- Estude sobre Tailwind CSS e utilize com frequência a documentação.
-
-## 🎨 Design Sugerido
-
-Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar a aplicação conforme sua criatividade.
-
-### Figma
-
-🔗 [Link do design](https://www.figma.com/community/file/1337745829139137456/mini-projeto-jogo-da-memoria)
-
-## 👉🏽 Sobre esse mini-projeto
-
-### O que você irá aprender
-
-- **Tecnologias:**
-  - `React JS`;
-  - `React Router Dom`;
-  - `TypeScript`;
-  - `Tailwind CSS`;
-  - `React Card Flip`;
+<div align="center">
+   <a href="https://www.linkedin.com/in/jonathankarlinski/">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    </a>
+    <a href="mailto:jonathankarlinski57@gmail.com">
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+    </a>
+</div>
