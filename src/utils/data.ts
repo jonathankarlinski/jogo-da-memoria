@@ -15,7 +15,7 @@ export const data: ICard[] = [
     grayScale: false,
   },
   {
-    id: 10,
+    id: 12,
     title: 'Goku',
     url: '/images/card-Goku.png',
     showCard: false,
@@ -29,7 +29,7 @@ export const data: ICard[] = [
     grayScale: false,
   },
   {
-    id: 11,
+    id: 13,
     title: 'Vegeta',
     url: '/images/card-Vegeta.png',
     showCard: false,
@@ -43,7 +43,7 @@ export const data: ICard[] = [
     grayScale: false,
   },
   {
-    id: 12,
+    id: 14,
     title: 'Gohan',
     url: '/images/card-Gohan.png',
     showCard: false,
@@ -57,7 +57,7 @@ export const data: ICard[] = [
     grayScale: false,
   },
   {
-    id: 13,
+    id: 15,
     title: 'Piccolo',
     url: '/images/card-Piccolo.png',
     showCard: false,
@@ -71,7 +71,7 @@ export const data: ICard[] = [
     grayScale: false,
   },
   {
-    id: 14,
+    id: 16,
     title: 'Trunks',
     url: '/images/card-Trunks.png',
     showCard: false,
@@ -85,7 +85,7 @@ export const data: ICard[] = [
     grayScale: false,
   },
   {
-    id: 15,
+    id: 17,
     title: 'Freeza',
     url: '/images/card-Freeza.png',
     showCard: false,
@@ -99,7 +99,7 @@ export const data: ICard[] = [
     grayScale: false,
   },
   {
-    id: 16,
+    id: 18,
     title: 'Cell',
     url: '/images/card-Cell.png',
     showCard: false,
@@ -113,7 +113,7 @@ export const data: ICard[] = [
     grayScale: false,
   },
   {
-    id: 17,
+    id: 19,
     title: 'Boo',
     url: '/images/card-Boo.png',
     showCard: false,
@@ -127,7 +127,7 @@ export const data: ICard[] = [
     grayScale: false,
   },
   {
-    id: 18,
+    id: 20,
     title: 'Kuririn',
     url: '/images/card-Kuririn.png',
     showCard: false,
@@ -141,9 +141,37 @@ export const data: ICard[] = [
     grayScale: false,
   },
   {
-    id: 19,
+    id: 21,
     title: 'Satan',
     url: '/images/card-Satan.png',
+    showCard: false,
+    grayScale: false,
+  },
+  {
+    id: 10,
+    title: 'Kame',
+    url: '/images/card-Kame.png',
+    showCard: false,
+    grayScale: false,
+  },
+  {
+    id: 22,
+    title: 'Kame',
+    url: '/images/card-Kame.png',
+    showCard: false,
+    grayScale: false,
+  },
+  {
+    id: 12,
+    title: 'Chichi',
+    url: '/images/card-Chichi.png',
+    showCard: false,
+    grayScale: false,
+  },
+  {
+    id: 23,
+    title: 'Chichi',
+    url: '/images/card-Chichi.png',
     showCard: false,
     grayScale: false,
   },
