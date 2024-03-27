@@ -84,7 +84,7 @@ function Game() {
     <div className="w-screen h-screen max-h-screen bg-[url(/images/kame.jpeg)] bg-cover bg-no-repeat bg-center">
       <div className="flex flex-col items-center justify-center w-5/6 h-full gap-1 py-5 m-auto my-0 lg:p-5">
         <Header />
-        <div className="grid h-full grid-cols-2 gap-5 py-1 overflow-y-auto lg:px-10 lg:grid-cols-5">
+        <div className="grid h-full grid-cols-2 gap-5 py-1 overflow-y-auto lg:px-10 lg:grid-cols-8">
           {cards.map((card) => (
             <Card
               key={card.id}

@@ -18,8 +18,8 @@ function Card({
   };
 
   const classes = `
-  min-w-[9rem] lg:min-w-[8rem] 
-  w-[9rem] lg:w-[8rem] 
+  min-w-[7rem] lg:min-w-[6rem]
+  w-[7rem] lg:w-[6rem]
   h-auto 
   hover:cursor-not-allowed lg:hover:scale-105 
   ${card.grayScale ? 'grayscale' : 'grayscale-0'} 
@@ -50,7 +50,7 @@ function Card({
           onClick={handleClick}
         >
           <img
-            className="min-w-[9rem] lg:min-w-[8rem] w-[9rem] lg:w-[8rem] h-auto hover:cursor-pointer lg:hover:scale-105 transition-all duration-500 ease-in-out"
+            className="min-w-[7rem] lg:min-w-[6rem] w-[7rem] lg:w-[6rem] h-auto hover:cursor-pointer lg:hover:scale-105 transition-all duration-500 ease-in-out"
             src="/images/card.png"
             alt="Imagem do verso do card"
           />
